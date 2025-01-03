@@ -4,22 +4,34 @@
 
 # Woods API
 
-1. Levantar la base de datos e instalar dependencias:
+# Parte 1
+
+Levantar la base de datos e instalar dependencias:
 
 ```
 docker-compose up -d
 ```
-
+```
 npm i @nestjs/config
+```
+```
 npm i --save @nestjs/typeorm typeorm pg
-
+```
+```
 docker exec -it woodsdb psql -U postgres
-
+```
+```
 npm install class-validator class-transformer
+```
+```
 npm i uuid
+```
+```
 npm i --save-dev @types/uuid
-
+```
+```
 npm run start:dev
+```
 
 # Temas
 
@@ -35,3 +47,15 @@ npm run start:dev
 10. Decoradores de TypeORM para entidades
 11. Métodos BeforeInsert, BeforeUpdate
 
+# Parte 2
+
+# Temas
+
+1. Relaciones (De uno a muchos & Muchos a uno)
+2. Query Runner
+3. Query Builder
+4. Transacciones
+5. Commits y Rollbacks
+6. Renombrar tablas
+7. Creación de un SEED
+8. Aplanar resultados
