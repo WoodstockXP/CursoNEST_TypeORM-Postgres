@@ -30,6 +30,18 @@ npm i uuid
 npm i --save-dev @types/uuid
 ```
 ```
+npm i --save bcrypt
+```
+```
+npm i --save @nestjs/passport passport
+```
+```
+npm i --save @nestjs/jwt passport-jwt
+```
+```
+npm i --save-dev @types/passport-jwt
+```
+```
 npm run start:dev
 ```
 
@@ -59,3 +71,20 @@ npm run start:dev
 6. Renombrar tablas
 7. Creación de un SEED
 8. Aplanar resultados
+
+# Parte 3
+
+# Temas 
+
+1. Autenticación
+2. Autorización
+3. Json Web Tokens
+4. Hash de contraseñas
+5. Nest Passport
+6. Módulos asíncronos
+7. Protección de rutas
+8. Custom Method Decorators
+9. Custom Class Decorators
+10. Custom Property Decorators
+11. Enlazar usuarios con productos
+12. Bearer Tokens
