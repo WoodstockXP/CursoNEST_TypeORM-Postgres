@@ -4,7 +4,7 @@
 
 # Woods API
 
-# Parte 1
+# Parte 1 - TypeORM (Postgres)
 
 Levantar la base de datos e instalar dependencias:
 
@@ -44,6 +44,9 @@ npm i --save-dev @types/passport-jwt
 ```
 npm run start:dev
 ```
+```
+npm i --save @nestjs/swagger
+```
 
 # Temas
 
@@ -59,7 +62,7 @@ npm run start:dev
 10. Decoradores de TypeORM para entidades
 11. Métodos BeforeInsert, BeforeUpdate
 
-# Parte 2
+# Parte 2 - Relaciones en TypeORM
 
 # Temas
 
@@ -72,7 +75,7 @@ npm run start:dev
 7. Creación de un SEED
 8. Aplanar resultados
 
-# Parte 3
+# Parte 3 - Autenticacion de autorizacion
 
 # Temas 
 
@@ -88,3 +91,10 @@ npm run start:dev
 10. Custom Property Decorators
 11. Enlazar usuarios con productos
 12. Bearer Tokens
+
+# Parte 4 - Documentacion (Open API)
+
+# Temas
+
+1. Postman documentation (https://documenter.getpostman.com/view/40218342/2sAYJ9AyRU)
+2. Nest Swagger
